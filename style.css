@@ -1,0 +1,50 @@
+
+/* CSS styles */
+.container-calcu {
+    max-width: 250px;
+    height:380px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #111111;
+    border: 1px solid 0;
+    border-radius: 5px;
+  }
+  .input{
+    margin-top: 20%;
+    background-color: #303030;
+    border: none;
+    color: white;
+    font-style: bold;
+  }
+  
+  .buttons {
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #031DF3;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .buttons button:hover {
+    background-color: #0364ff;
+  }
+  input[type="number"], input[type="text"], button {
+    display: block;
+    margin: 15px auto;
+    padding: 5px;
+  }
+  
+  button {
+    width: 100px;
+  }
+  
+  #operando1,#operando2 {
+    text-align: right;
+  }
+  #resultado {
+    text-align: right;
+    align-items: 1px;
+  }
+  
